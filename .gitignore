@@ -1,0 +1,22 @@
+# virtual environment
+venv/
+env/
+
+# python cache
+
+__pycache__/
+*.pyc
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
