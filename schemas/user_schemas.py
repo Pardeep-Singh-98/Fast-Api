@@ -25,9 +25,12 @@ class UserCreate(BaseModel):
 #   "email":"abc@gmail.com",
 #   "password":"123456"
 # }
-class Login(BaseModel):
+class UserLogin(BaseModel):
     email: EmailStr
-    password: str
+    password: str = Field(
+        min_length=6,
+        max_length=72
+    )
 
 
 # Response schema
